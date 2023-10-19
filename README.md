@@ -16,11 +16,11 @@ Welcome to the Python Games project! This repository contains a collection of si
 
 To work with this project, you need to have the following installed on your computer:
 
-- [Python](https://www.python.org/downloads/): We recommend using Python 3.
+- [Python](https://www.python.org/downloads/): I recommend using Python 3.
 
 ### Clone the Repository
 
 To get started, you'll need to clone this repository to your local machine. Open your terminal or command prompt and navigate to the directory where you want to store the project.
 
 ```bash
-git clone https://github.com/your-username/game-package.git
+git clone https://github.com/aarnav1729/game-package.git
