@@ -23,7 +23,7 @@
 #-------------------------------------------------------+
 import random
 
-def mathStudy()
+def mathStudyBuddy():
 
   programExplanation = '''\nHello!
   This game acts as a personal study buddy for basic arithmetic problem solving.
