@@ -6,7 +6,7 @@ To work with this project on your local device, you need to have the following i
 
 - [Python](https://www.python.org/downloads/)
 
-- [vscode]([https://code.visualstudio.com/download](https://code.visualstudio.com/download))
+- [vscode](https://code.visualstudio.com/download)
 
 
 ### Clone the Repository
