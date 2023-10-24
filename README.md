@@ -2,11 +2,11 @@
 
 ## Prerequisites
 
-To work with this project on your local device, you need to have the following installed on your computer:
+To work with this project on your local device, you need to have the following installed on your computer (Python and somewhere to write your code, I recommend vscode):
 
 - [Python](https://www.python.org/downloads/)
 
-- [vscode] (https://vscode.dev) or [wing] (https://wingware.com/downloads)
+- [vscode] (https://vscode.dev)
 
 
 ### Clone the Repository
