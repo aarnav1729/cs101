@@ -17,18 +17,12 @@ git clone https://github.com/aarnav1729/cs101.git
 
 if you're still confused consider referring to: [git-clone](https://github.com/git-guides/git-clone)
 
-Installation
-
-Once you have the repository on your local machine, you can set up and run the games. Follow these steps:
-Open a terminal or command prompt.
-Navigate to the project directory using cd games (cd stands for change directory).
-Install Python if you haven't already and you should be good to go.
 
 Usage
 
-This project contains multiple games that you can play. You can run the games from the command line or terminal. These games can be accessed using the Main Menu. To access it, naivagte to your terminal, in your terminal, navigate to the project directory (if you're not already there).
+This project contains multiple games that you can play. You can run the games from the command line or terminal. These games can be accessed using the Main Menu. To access it, first naivagte to your terminal, in your terminal, navigate to the project directory and run the following command:
 
-Run the following command: python3 main.py
+python3 main.py
 
 This will display the main menu. You can choose a game by entering the corresponding number.
 
@@ -43,8 +37,8 @@ If you'd like to add new games, or improve existing ones, here's how you can do 
 
 3. Make your changes, create new games, fix bugs, or add features.
 
-4. Commit your changes with clear and concise commit messages. (https://github.com/git-guides/git-commit)
+4. Commit your changes with clear and concise commit messages. [git-commit](https://github.com/git-guides/git-commit)
 
-5. Push your changes to your fork on GitHub. (https://github.com/git-guides/git-push)
+5. Push your changes to your fork on GitHub. [git-push](https://github.com/git-guides/git-push)
 
-6. Create a pull request to merge your changes into the main repository. (https://github.com/git-guides/git-pull)
+6. Create a pull request to merge your changes into the main repository. [git-pull](https://github.com/git-guides/git-pull)
