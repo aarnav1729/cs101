@@ -11,11 +11,11 @@ To work with this project on your local device, you need to have the following i
 
 ### Clone the Repository
 
-To get started, you'll need to clone this repository to your local machine. Create a new folder on your device and open it in vscode or your IDE (where you write your code) of choice. Then use the terminal within vscode to clone the repository (if you're still confused consider referring to: https://github.com/git-guides/git-clone). 
+To get started, you'll need to clone this repository to your local machine. Create a new folder on your device and open it in vscode or your IDE (where you write your code) of choice. Then use the terminal within vscode to clone the repository using the command below: 
 
-```bash
 git clone https://github.com/aarnav1729/cs101.git
 
+if you're still confused consider referring to: [git-clone](https://github.com/git-guides/git-clone)
 
 Installation
 
