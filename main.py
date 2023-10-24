@@ -20,7 +20,7 @@ def main_menu():
             guess_random_number()
 
         elif choice == "2":
-            mathStudy()
+            mathStudyBuddy()
 
         elif choice == "3":
             coin_flip()
