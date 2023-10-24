@@ -8,7 +8,7 @@ def main_menu():
 
         print("main menu:")
         print("1. guess the random number- Aarnav")
-        print("2. guess the random number- Susan")
+        print("2. math study buddy- Wyatt")
         print("3. coin flip- Aarnav")
         print("4. dice roll- Susan")
         print("0. exit")
