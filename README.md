@@ -1,13 +1,6 @@
 # cs101: Python
 
-## Table of Contents
-
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Contributing](#contributing)
-
-
-### Prerequisites
+## Prerequisites
 
 To work with this project on your local device, you need to have the following installed on your computer:
 
