@@ -33,12 +33,10 @@ If you'd like to add new games, or improve existing ones, here's how you can do 
 
 1. Clone the repository in your IDE by using: git clone https://github.com/aarnav1729/cs101.git
 
-2. Once you have it cloned you now have your own version of the repo and can make changes!
+2. Make your changes, create new games, fix bugs, or add features.
 
-3. Make your changes, create new games, fix bugs, or add features.
+3. Commit your changes with clear and concise commit messages. [git-commit](https://github.com/git-guides/git-commit)
 
-4. Commit your changes with clear and concise commit messages. [git-commit](https://github.com/git-guides/git-commit)
+4. Push your changes to your fork on GitHub. [git-push](https://github.com/git-guides/git-push)
 
-5. Push your changes to your fork on GitHub. [git-push](https://github.com/git-guides/git-push)
-
-6. Create a pull request to merge your changes into the main repository. [git-pull](https://github.com/git-guides/git-pull)
+5. Create a pull request to merge your changes into the main repository. [git-pull](https://github.com/git-guides/git-pull)
