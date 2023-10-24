@@ -19,7 +19,7 @@ def main_menu():
             guess_random_number()
 
         elif choice == "2":
-            guess_random_number()
+            mathStudy()
 
         elif choice == "3":
             coin_flip()
