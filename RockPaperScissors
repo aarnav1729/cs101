@@ -1,0 +1,35 @@
+#Rock, Paper, Sciossiors game agianst an AI
+import random
+
+while True:
+    User = input("Choose Rock, Paper, Scissors: ")
+    Choices = ["Rock", "Paper", "Scissors" ]
+    Ai = random.choice(Choices)
+
+    if User == Ai:
+        print("Both players chosen", (User) ,"it is a Tie!")
+
+    if User == "Rock" and Ai == "Paper":
+        print("You chosen Rock, Ai chosen Paper. You lose!")
+
+    if User == "Rock" and Ai == "Scissors":
+        print("You chosen Rock, Ai chosen Scissors. You Win!")
+    
+    if User == "Paper" and Ai == "Rock":
+        print("You chosen Paper, Ai chosen Rock. You Win!")
+
+    if User == "Paper" and Ai == "Scissors": 
+        print("You chosen Paper, Ai chosen Scissors. You Lose!")
+    
+    if User == "Scissors" and Ai == "Rock":
+        print("You chosen Paper, Ai chosen Rock. You Lose!")
+    
+    if User == "Scissors" and Ai == "Paper":
+        print("You have chosen Scissors, Ai chosen Paper, You Win!")
+
+    playagain = input("Play again? (y/n): ")
+    if playagain != "y":
+        print("Thank you for playing.")
+        break
+        
+
