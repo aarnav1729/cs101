@@ -6,7 +6,7 @@ from games.True_or_False import torf
 from games.three_dice import three_dice
 from games.heath_game import heath_game
 from games.make_cake import make_cake
-from games.guess_the_letter import guess_letter
+from games.guess_letter import guess_letter
 from games.blackjack import blackjack
 from games.RockPaperScissors import RockPaperScissors
 
