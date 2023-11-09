@@ -1,10 +1,7 @@
 # Cornelius Thao's game
 import random
 
-
-def main():
-    guess_alphabet_letter()
-def guess_alphabet_letter():
+def guess_letter():
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     secret_letter = random.choice(alphabet)
 
@@ -39,7 +36,3 @@ def guess_alphabet_letter():
                         main()
                 else:
                     print("Try again.")
-
-
-if __name__ == "__main__":
-    main()
