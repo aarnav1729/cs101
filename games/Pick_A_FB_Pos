@@ -1,0 +1,64 @@
+fbpos = input("Pick a football position on the Vikings, quarterback, receiver, tight end, running
+back, kicker, cornerback, safety, linebacker?: ")
+if fbpos == "quarterback":
+print("Kirk Cousins is the quarterback for the Minnesota VIkings")
+rank = input("Do you know what rank is Kirk Cousins in the NFL: ")
+if rank == "no":
+print("Kirk Cousins is ranked 6th among QB's in the NFL ")
+else:
+print("Nice!")
+if fbpos == "receiver":
+print("Justin Jefferson is a receiver for the Minnesota Vikings ")
+rank = input("Do you know what rank is Justin Jefferson in the NFL: ")
+if rank == "no":
+print("Justin Jefferson is ranked 18th among WR's in the NFL ")
+else:
+print("Nice!")
+if fbpos == "tight end":
+print("TJ Hockenson is the tight end for the Minnesota Vikings")
+rank = input("Do you know what rank is TJ Hockenson in the NFL: ")
+if rank == "no":
+print("TJ Hockenson is ranked 3rd among TE's in the NFL ")
+else:
+print("Nice!")
+if fbpos == "running back":
+print("Alexander Mattison is the running back for the Minnesota Vikings")
+rank = input("Do you know what rank is Alexander Mattison in the NFL: ")
+if rank == "no":
+print("Alexander Mattison is ranked 26th among RB's in the NFL ")
+else:
+print("Nice!")
+if fbpos == "cornerback":
+print("Byron Murphy Jr. is the cornerback for the Minnesota Vikings")
+rank = input("Do you know how many INT's Byron Murphy Jr. has in the NFL: ")
+if rank == "no":
+print("Byron Murphy currently has one INT's in the NFL ")
+else:
+print("Nice!")
+if fbpos == "safety":
+print("Harrison Smith is the safety for the Minnesota Vikings")
+rank = input("Do you know how many tackles Harrison Smith has in the NFL: ")
+if rank == "no":
+print("Harrison Smith currently has 36 in the NFL ")
+else:
+print("Nice!")
+if fbpos == "kicker":
+print("Greg Joseph is the kicker for the Minnesota Vikings")
+rank = input("Do you know what rank is Greg Joseph in the NFL: ")
+if rank == "no":
+print("Greg Joseph is ranked 26th among Kickers in the NFL ")
+else:
+print("Nice!")
+if fbpos == "linebacker":
+print("Jordan Hicks is the linebacker for the Minnesota Vikings")
+rank = input("Do you know how many tackles Jordan Kicks has in the NFL: ")
+if rank == "no":
+print("Jordan Hicks currently has 48 tackles in the NFL ")
+else:
+print("Nice!")
+skol = input("Do you know what Viking fan's favorite chant is? ")
+if skol == "no":
+for no in range (10):
+print("SKOL! SKOL! SKOL!")
+else:
+print("You are a true Vikings fan! SKOL SKOL SKOL")
