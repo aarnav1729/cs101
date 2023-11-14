@@ -1,0 +1,14 @@
+#Custom code to see if you are old enough to drive.
+age = int(input("How old are you:"))
+
+if 0 < age < 16:
+    print("Sorry, you are not old enough to drive.")
+
+elif 16 <= age < 79:
+    print("You should be good to drive if you have your license. Drive Safe")
+
+elif age > 79:
+    print("You are too old, you probably should not drive.")
+
+else:
+    print("Please enter a valid age.") 
