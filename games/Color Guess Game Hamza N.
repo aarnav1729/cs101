@@ -1,0 +1,38 @@
+#GitHub Assignment for Hamza Nure
+import random
+
+primary_colors = ["red", "blue", "yellow"]
+secondary_colors = ["orange", "green", "purple"]
+
+is_primary_color = random.choice([True, False])
+
+if is_primary_color:
+    secret_color = random.choice(primary_colors)
+    category = "primary"
+else:
+    secret_color = random.choice(secondary_colors)
+    category = "secondary"
+
+print("Welcome to the Color Guessing Game!")
+print(f"Is the color a {category} color?")
+
+primary_secondary_guess = input("Enter 'primary' or 'secondary': ").lower()
+
+if primary_secondary_guess == category:
+    print("Correct category! Now guess the color.")
+    attempts = 2
+
+    while attempts > 0:
+        guess = input("Enter a color: ").lower()
+
+        if guess == secret_color:
+            print(f"Congratulations! You guessed the color '{secret_color}'!")
+            break  # Exit the loop if the guess is correct
+        else:
+            attempts -= 1
+            print(f"Incorrect! You have {attempts} attempts left.")
+
+            if attempts == 0:
+                print(f"Sorry, you've run out of attempts. The correct color was '{secret_color}'.")
+else:
+    print(f"Sorry, the correct category was '{category}'.")
